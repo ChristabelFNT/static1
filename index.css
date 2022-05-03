@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.active{
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 30px;
+    color:rgb(0, 0, 0);
+}
+/* New Arrivals */
+section {
+    width: 80%;
+    margin: 80px auto;
+}
+.title {
+    text-align: center;
+    font-size: 4vmin;
+}
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.row .col img{
+    width: 80%;
+}
+.nav-links{
+    display:flex;
+    align-items: center;
+}
+.nav-links li {
+    margin: 0 30px ;
+}
+header { 
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./pictures/006.jpg);
+    background-position:bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-content {
+    margin-inline: 150px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-shadow: 2px 2px whitesmoke;
+    font-family:"Lucida handwriting", cursive;
+    font-size:x-large;
+    display: flex;
+    justify-content: center;
+}
+
+.ctn {
+    padding: 8px 15px;
+    background: rgb(165, 42, 42);
+    border-radius: 30px;
+    height: 30px; 
+    width: 100px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
