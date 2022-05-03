@@ -52,7 +52,7 @@ section {
 header { 
     width: 100vw;
     height: 100vh;
-    background-image: url(./pictures/006.jpg);
+    background-image: url(./006.jpg);
     background-position:bottom;
     background-size: cover;
     display: flex;
